@@ -1,0 +1,26 @@
+{
+  "name": "helper-octicon",
+  "description": "Template helper for displaying octicon SVGs. Should work with any Handlebars, Lo-Dash, underscore or any template engine that allows helper functions to be registered. Also compatible with verb, assemble, and templates.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/helpers/helper-octicon",
+  "author": "Brian Woodward (https://github.com/doowb)",
+  "repository": "helpers/helper-octicon",
+  "bugs": {
+    "url": "https://github.com/helpers/helper-octicon/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "LICENSE"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "generategenerator"
+  ]
+}
