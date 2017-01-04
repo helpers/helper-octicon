@@ -15,12 +15,51 @@
   ],
   "main": "index.js",
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=4.0"
   },
   "scripts": {
     "test": "mocha"
   },
   "keywords": [
     "generategenerator"
-  ]
+  ],
+  "dependencies": {
+    "extend-shallow": "^2.0.1",
+    "octicons": "^5.0.1"
+  },
+  "devDependencies": {
+    "engine": "^0.1.12",
+    "gulp-format-md": "^0.1.11",
+    "handlebars": "^4.0.6",
+    "mocha": "^3.2.0"
+  },
+  "verb": {
+    "toc": false,
+    "layout": "helper",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "lint": {
+      "reflinks": true
+    },
+    "related": {
+      "list": []
+    },
+    "reflinks": [
+      "assemble",
+      "generate",
+      "generate-helper",
+      "handlebars",
+      "helpers",
+      "lodash",
+      "templates",
+      "underscore",
+      "update",
+      "verb",
+      "verb-generate-readme"
+    ]
+  }
 }
