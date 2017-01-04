@@ -10,8 +10,7 @@
   },
   "license": "MIT",
   "files": [
-    "index.js",
-    "LICENSE"
+    "index.js"
   ],
   "main": "index.js",
   "engines": {
@@ -20,9 +19,6 @@
   "scripts": {
     "test": "mocha"
   },
-  "keywords": [
-    "generategenerator"
-  ],
   "dependencies": {
     "extend-shallow": "^2.0.1",
     "octicons": "^5.0.1"
@@ -33,6 +29,25 @@
     "handlebars": "^4.0.6",
     "mocha": "^3.2.0"
   },
+  "keywords": [
+    "assemble",
+    "engine",
+    "generate",
+    "generategenerator",
+    "handlebars",
+    "handlebars-helpers",
+    "helper",
+    "helper-octicon",
+    "helpers",
+    "icon",
+    "icons",
+    "lodash",
+    "octicon",
+    "octicons",
+    "templates",
+    "underscore",
+    "verb"
+  ],
   "verb": {
     "toc": false,
     "layout": "helper",
