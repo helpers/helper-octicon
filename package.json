@@ -61,7 +61,15 @@
       "reflinks": true
     },
     "related": {
-      "list": []
+      "list": [
+        "assemble",
+        "engine",
+        "generate",
+        "handlebars-helpers",
+        "octicons",
+        "templates",
+        "verb"
+      ]
     },
     "reflinks": [
       "assemble",
